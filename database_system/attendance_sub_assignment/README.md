@@ -24,7 +24,7 @@
 
 
 **문1) 요구사항에 대한 ER 다이어그램 작성 (5점)**
-![1](https://user-images.githubusercontent.com/33932352/119161869-bafcfc00-ba94-11eb-8dc0-e06722b545af.png)
+<img src="https://user-images.githubusercontent.com/33932352/119165289-4d52cf00-ba98-11eb-99c1-7beac95a3653.png" width="70%">
 
 <br/>
 <br/>
@@ -32,17 +32,16 @@
 **문2) ER 다이어그램을 관계형 모델 스키마로 변환(기본키,  기본키-외래키 참조관계 등의 제약조건 명시) (10점)**
 
 MySQL 워크벤치 > Database > Forward Engineer 이용
-![2](https://user-images.githubusercontent.com/33932352/119161874-bc2e2900-ba94-11eb-8581-f6dfb3d9d39c.png)
-
+<img src="https://user-images.githubusercontent.com/33932352/119161874-bc2e2900-ba94-11eb-8581-f6dfb3d9d39c.png" width="70%">
 
 기본키, 외래키, 참조관계 등의 모든 제약조건 명시.
-![3](https://user-images.githubusercontent.com/33932352/119161877-bc2e2900-ba94-11eb-9bbb-8279f99458c9.png)
-![4](https://user-images.githubusercontent.com/33932352/119161881-bcc6bf80-ba94-11eb-80b4-b02d19bbfd43.png)
+<img src="https://user-images.githubusercontent.com/33932352/119161877-bc2e2900-ba94-11eb-9bbb-8279f99458c9.png" width="70%">
+<img src="https://user-images.githubusercontent.com/33932352/119161881-bcc6bf80-ba94-11eb-80b4-b02d19bbfd43.png" width="70%">
 
 
 프로세스가 모두 끝나면, 관계형 모델 스키마로 생성된 것을 확인할 수 있다.
 
-![5](https://user-images.githubusercontent.com/33932352/119162333-31016300-ba95-11eb-98aa-cd5b490676d2.png)
+<img src="https://user-images.githubusercontent.com/33932352/119162333-31016300-ba95-11eb-98aa-cd5b490676d2.png" width="20%">
 
 <br/>
 <br/>
@@ -59,7 +58,8 @@ MySQL 워크벤치 > Database > Forward Engineer 이용
 
 실행결과
 
-![6](https://user-images.githubusercontent.com/33932352/119162336-3199f980-ba95-11eb-8180-e5fff2b25ae0.png)
+<img src="https://user-images.githubusercontent.com/33932352/119162336-3199f980-ba95-11eb-8180-e5fff2b25ae0.png" width="50%">
+
 
 <br/>
 
@@ -71,7 +71,7 @@ MySQL 워크벤치 > Database > Forward Engineer 이용
 
 실행결과
 
-![7](https://user-images.githubusercontent.com/33932352/119163011-f946eb00-ba95-11eb-9a98-6990b277026f.png)
+<img src="https://user-images.githubusercontent.com/33932352/119163011-f946eb00-ba95-11eb-9a98-6990b277026f.png" width="50%">
 
 <br/>
 
@@ -89,4 +89,4 @@ MySQL 워크벤치 > Database > Forward Engineer 이용
 실행결과
 
 
-![8](https://user-images.githubusercontent.com/33932352/119163009-f815be00-ba95-11eb-93a8-c0e8fe78e5aa.png)
+<img src="https://user-images.githubusercontent.com/33932352/119163009-f815be00-ba95-11eb-93a8-c0e8fe78e5aa.png" width="50%">
