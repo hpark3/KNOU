@@ -21,6 +21,7 @@
 <img src="C:/workspace/Git/KNOU/database_system/attendance_sub_assignment/imgs/1.png" width="700">
 
 **문2) ER 다이어그램을 관계형 모델 스키마로 변환(기본키,  기본키-외래키 참조관계 등의 제약조건 명시) (10점)**
+
 MySQL 워크벤치 > Database > Forward Engineer 이용
 <img src="C:/workspace/Git/KNOU/database_system/attendance_sub_assignment/imgs/2.png" width="700">
 
