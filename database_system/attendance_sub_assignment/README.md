@@ -17,24 +17,41 @@
     다) 이름이 ‘명감독’인 감독이 촬영한 영화의 제목을 출력하시오.
 
 
+-- 이하 과제 작성
+
+<br/>
+<br/>
+
+
 **문1) 요구사항에 대한 ER 다이어그램 작성 (5점)**
-<img src="C:/workspace/Git/KNOU/database_system/attendance_sub_assignment/imgs/1.png" width="700">
+![1](https://user-images.githubusercontent.com/33932352/119161869-bafcfc00-ba94-11eb-8dc0-e06722b545af.png)
+
+<br/>
+<br/>
 
 **문2) ER 다이어그램을 관계형 모델 스키마로 변환(기본키,  기본키-외래키 참조관계 등의 제약조건 명시) (10점)**
 
 MySQL 워크벤치 > Database > Forward Engineer 이용
-<img src="C:/workspace/Git/KNOU/database_system/attendance_sub_assignment/imgs/2.png" width="700">
+![2](https://user-images.githubusercontent.com/33932352/119161874-bc2e2900-ba94-11eb-8581-f6dfb3d9d39c.png)
+
 
 기본키, 외래키, 참조관계 등의 모든 제약조건 명시.
-<img src="C:/workspace/Git/KNOU/database_system/attendance_sub_assignment/imgs/3.png" width="700">
-<img src="C:/workspace/Git/KNOU/database_system/attendance_sub_assignment/imgs/4.png" width="700">
+![3](https://user-images.githubusercontent.com/33932352/119161877-bc2e2900-ba94-11eb-9bbb-8279f99458c9.png)
+![4](https://user-images.githubusercontent.com/33932352/119161881-bcc6bf80-ba94-11eb-80b4-b02d19bbfd43.png)
+
 
 프로세스가 모두 끝나면, 관계형 모델 스키마로 생성된 것을 확인할 수 있다.
-<img src="C:/workspace/Git/KNOU/database_system/attendance_sub_assignment/imgs/5.png" width="700">
+
+![5](https://user-images.githubusercontent.com/33932352/119162333-31016300-ba95-11eb-98aa-cd5b490676d2.png)
+
+<br/>
+<br/>
 
 **문3) 다음 정보를 출력하기 위한 SQL문을 작성 (각 5점)**
+
+가) 배우의 이름, 성별, 출생지를 출력하시오.
 	
-	가) 배우의 이름, 성별, 출생지를 출력하시오.
+	
 	
     SELECT 이름, 성별, 출생지 FROM `mydb`.`배우`;
 	SELECT 이름, 성별, 출생지 FROM 배우;
@@ -42,12 +59,21 @@ MySQL 워크벤치 > Database > Forward Engineer 이용
 
 실행결과
 
-    나) 현재 날짜를 기준으로 최근 3년 안에 제작된 영화의 제목, 제작국가, 개봉일, 제작사, 배급사를 출력하시오.
+![6](https://user-images.githubusercontent.com/33932352/119162336-3199f980-ba95-11eb-8180-e5fff2b25ae0.png)
+
+<br/>
+
+나) 현재 날짜를 기준으로 최근 3년 안에 제작된 영화의 제목, 제작국가, 개봉일, 제작사, 배급사를 출력하시오.
+    
     SELECT  제목, 제작국가, 개봉일자 AS 개봉일, 제작사, 배급사
     FROM 영화
     WHERE 제작년도 > (NOW() - INTERVAL 3 YEAR);
 
 실행결과
+
+![7](https://user-images.githubusercontent.com/33932352/119163011-f946eb00-ba95-11eb-9a98-6990b277026f.png)
+
+<br/>
 
 다) 이름이 ‘명감독’인 감독이 촬영한 영화의 제목을 출력하시오.
 
@@ -59,3 +85,8 @@ MySQL 워크벤치 > Database > Forward Engineer 이용
 	    영화
     INNER JOIN 감독참여 ON 감독참여.영화_영화코드번호 = 영화.영화코드번호
     INNER JOIN 감독 ON 감독.등록번호 = 감독참여.감독_등록번호 AND 감독.이름 = '명감독';
+
+실행결과
+
+
+![8](https://user-images.githubusercontent.com/33932352/119163009-f815be00-ba95-11eb-93a8-c0e8fe78e5aa.png)
